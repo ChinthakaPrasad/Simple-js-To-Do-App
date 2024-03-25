@@ -1,0 +1,65 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-image: url("https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px;
+}
+
+/* Heading styles */
+h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Input and button styles */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* List styles */
+ol {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+ol li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
